@@ -1,5 +1,12 @@
 # Get2Go
 
+## Table of Contents
+* [Pendahuluan](#pendahuluan)
+* [Informasi](#informasi)
+* [Anggota Project](#anggota-project)
+* [Teknologi](#teknologi)
+* [Screenshots](#screenshots)
+
 ## Pendahuluan
 Get2Go adalah aplikasi berbasis web yang memiliki visi mempermudah para wisatawan untuk mendapatkan rekomendasi dan informasi mengenai tempat wisata di Indonesia.
 
@@ -18,3 +25,11 @@ Informasi yang ditampilkan di aplikasi Get2Go, yaitu:
 - Rizki Akbar Putra Hermawan (Designer)
 - [Ryan Faiz Sanie](https://github.com/ryanfaiz) (Backend Developer & Database Administrator)
 - Zalfa Rania Hawa (Head of Research Division)
+
+## Teknologi
+- Apache - versi 2.4.54
+- MariaDB - versi 10.4.24
+- PHP - versi 8.1.10
+
+## Screenshots
+![Home Page](./img/ss.webp)
