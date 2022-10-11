@@ -33,7 +33,7 @@
                     <h1>Choose Your Destination</h1>
     
                     <form action="" method="post">
-                        <select name="lokasi" id="lokasi" onclick="select()" onchange="optionshow()">
+                        <select name="lokasi" id="lokasi" onclick="select()" onchange="optionshow()" required>
                             <option value="" id="placeholder">Seach here...</option>
                             <option value=""></option>
                             <option value="jakarta-utara">Jakarta Utara</option>
@@ -43,8 +43,8 @@
                             <option value="jakarta-selatan">Jakarta Selatan</option>
                         </select>
 
-                        <label class="option" style="display:none;"><input type="radio" name="optradio" value="indoor"> Indoor</label>
-                        <label class="option" style="display:none;"><input type="radio" name="optradio" value="outdoor"> Outdoor</label>
+                        <label class="option" style="display:none;"><input type="radio" name="optradio" value="indoor" required> Indoor</label>
+                        <label class="option" style="display:none;"><input type="radio" name="optradio" value="outdoor" required> Outdoor</label>
 
                         <br><button type="submit">Telusuri</button>
                     </form>
