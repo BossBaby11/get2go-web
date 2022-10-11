@@ -1,5 +1,5 @@
 <?php
-    require "script/conn.php";
+    require "script/php/conn.php";
 
     if ( isset($_POST["submit"])) {
         $lokasi = htmlspecialchars($_POST["lokasi"]);
@@ -53,4 +53,4 @@
         </div>        
     </body>
 </html>
-<script src="/script/select.js"></script>
+<script src="/script/js/select.js"></script>
