@@ -1,4 +1,4 @@
-# get2go-web
+# Get2Go
 
 ## Pendahuluan
 Get2Go adalah aplikasi berbasis web yang memiliki visi mempermudah para wisatawan untuk mendapatkan rekomendasi dan informasi mengenai tempat wisata di Indonesia.
