@@ -13,9 +13,9 @@ Informasi yang ditampilkan di apilasi Get2Go, yaitu:
 - Rute transportasi untuk menuju ke tempat wisata
 
 ## Anggota Project
-- Akhmad Deewa Prambudi
-- Hanif Mishbah Zulfikar
-- Bima Gifara
-- Rizki Akbar Putra Hermawan
-- Ryan Faiz Sanie
-- Zalfa Rania Hawa
+- Akhmad Deewa Prambudi (Researcher)
+- [Hanif Mishbah Zulfikar](https://github.com/BossBaby11) (Project Manager & Frontend Developer)
+- Bima Gifara (Researcher)
+- Rizki Akbar Putra Hermawan (Designer)
+- [Ryan Faiz Sanie](https:github.com/ryanfaiz) (Backend Developer & Database Administrator)
+- Zalfa Rania Hawa (Head of Research Division)
