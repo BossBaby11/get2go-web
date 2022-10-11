@@ -4,7 +4,7 @@
 Get2Go adalah aplikasi berbasis web yang memiliki visi mempermudah para wisatawan untuk mendapatkan rekomendasi dan informasi mengenai tempat wisata di Indonesia.
 
 ## Informasi
-Informasi yang ditampilkan di apilasi Get2Go, yaitu:
+Informasi yang ditampilkan di aplikasi Get2Go, yaitu:
 - Detail tempat wisata
 - Deskripsi tempat wisata
 - Jam operasional tempat wisata
