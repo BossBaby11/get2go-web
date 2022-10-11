@@ -10,7 +10,6 @@ Informasi yang ditampilkan di apilasi Get2Go, yaitu:
 - Jam operasional tempat wisata
 - Harga tiket masuk tempat wisata
 - Galeri foto dan/atau video tempat wisata
-- Rute transportasi untuk menuju ke tempat wisata
 
 ## Anggota Project
 - Akhmad Deewa Prambudi (Researcher)
