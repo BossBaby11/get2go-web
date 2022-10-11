@@ -17,5 +17,5 @@ Informasi yang ditampilkan di apilasi Get2Go, yaitu:
 - [Hanif Mishbah Zulfikar](https://github.com/BossBaby11) (Project Manager & Frontend Developer)
 - Bima Gifara (Researcher)
 - Rizki Akbar Putra Hermawan (Designer)
-- [Ryan Faiz Sanie](https:github.com/ryanfaiz) (Backend Developer & Database Administrator)
+- [Ryan Faiz Sanie](https://github.com/ryanfaiz) (Backend Developer & Database Administrator)
 - Zalfa Rania Hawa (Head of Research Division)
