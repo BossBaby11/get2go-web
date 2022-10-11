@@ -24,7 +24,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/style/home.css">
         <link rel="stylesheet" href="/style/home.tmp.css">
-        <title>Home | Nama Website</title>
+        <title>Home | Get2Go</title>
     </head>
     <body>
         <div class="backimg">
