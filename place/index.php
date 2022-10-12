@@ -1,6 +1,7 @@
 <?php
     require "../script/php/conn.php";
 
+    $id = $_GET["id"];
 
 ?>
 
