@@ -1,4 +1,6 @@
 <?php
+    require "../script/php/conn.php";
+
 
 ?>
 
