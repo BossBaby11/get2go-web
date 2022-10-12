@@ -6,9 +6,8 @@
         header("Location: /");
         exit;
     } else {
-        echo $lokasi = $_SESSION["lokasi"];
-        echo " - ";
-        echo $tipe = $_SESSION["tipe"];
+        $lokasi = $_SESSION["lokasi"];
+        $tipe = $_SESSION["tipe"];
     }
 ?>
 
