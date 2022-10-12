@@ -1,8 +1,13 @@
 <?php
     session_start();
 
-    echo $lokasi = $_SESSION["lokasi"];
-    echo $tipe = $_SESSION["tipe"];
+    if( !isset($_SESSION["lokasi"])) {
+        header("Location: /");
+        exit;
+    } else {
+        echo $lokasi = $_SESSION["lokasi"];
+        echo $tipe = $_SESSION["tipe"];
+    }
 ?>
 
 <!DOCTYPE html>
