@@ -72,6 +72,7 @@ button{
   background-color: #2A93D5;
   color: white;
   font-size: large;
+  box-shadow: 1px 3px 5px 0.5px #CFD2CF;
 }
 
 /* select {
