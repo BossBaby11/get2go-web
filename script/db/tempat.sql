@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 11, 2022 at 06:27 AM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 8.1.10
+-- Generation Time: Oct 12, 2022 at 03:04 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -43,6 +43,13 @@ CREATE TABLE `tempat` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Dumping data for table `tempat`
+--
+
+INSERT INTO `tempat` (`id`, `lokasi`, `nama`, `tipe`, `deskripsi`, `buka`, `tutup`, `htm`, `gmaps`, `foto1`, `foto2`, `foto3`) VALUES
+(1, 'Jakarta Timur', 'Taman Mini Indonesia Indah', 'outdoor', 'Taman hiburan bertema budaya Indonesia. Taman ini merupakan rangkuman kebudayaan bangsa Indonesia, yang mencangkup berbagai aspek kehidupan sehari-hari masyarakat Indonesia yang di tampilkan dalam anjungan berasitektur tradisional, serta menampilkan aneka busana, tarian, dan tradisi daerah.', '07:00:00', '18:00:00', '25.000,00', 'https://maps.google.com/maps?q=taman%20mini%20indinesia%20indah,%20jakarta%20timur&t=&z=13&ie=UTF8&iwloc=&output=embed', '/img/place/taman-mini-indonesia-indah-1.webp', '/img/place/taman-mini-indonesia-indah-2.webp', '/img/place/taman-mini-indonesia-indah-3.webp');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -60,7 +67,7 @@ ALTER TABLE `tempat`
 -- AUTO_INCREMENT for table `tempat`
 --
 ALTER TABLE `tempat`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
