@@ -1,0 +1,55 @@
+* {
+    /* margin: 0; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* display: none; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 15px;
+}
+
+h1{
+    margin: 15px;
+}
+
+h2{
+    margin: 15px;
+}
+
+h4{
+    margin: 15px;
+}
+
+p{
+    margin: 15px;
+    margin-bottom: 15px;
+}
+
+article{
+    margin-bottom: 30px;
+}
+
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 800px){
+    article{
+        max-width: 80%;
+    }
+
+}
