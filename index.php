@@ -36,9 +36,8 @@
                             <option value="jakarta-timur">Jakarta Timur</option>
                             <option value="jakarta-selatan">Jakarta Selatan</option>
                         </select>
-
-                        <label class="option" style="display:none;"><input type="radio" name="optradio" value="indoor" required> Indoor</label>
-                        <label class="option" style="display:none;"><input type="radio" name="optradio" value="outdoor" required> Outdoor</label>
+                        <label class="option" style="display:none;"><input type="radio" name="tipe" value="indoor" required> Indoor</label>
+                        <label class="option" style="display:none;"><input type="radio" name="tipe" value="outdoor" required> Outdoor</label>
 
                         <br><button type="submit" name="submit">Telusuri</button>
                     </form>
