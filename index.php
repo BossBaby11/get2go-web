@@ -5,7 +5,7 @@
         $lokasi = htmlspecialchars($_POST["lokasi"]);
         $kategori = htmlspecialchars($_POST["lokasi"]);
         $utama = htmlspecialchars($_POST['utama']);
-        
+
         mysqli_query($conn, $insert);
 
         $_SESSION["type"] =  "data berhasil ditambah";
@@ -46,7 +46,7 @@
                         <label class="option" style="display:none;"><input type="radio" name="optradio" value="indoor" required> Indoor</label>
                         <label class="option" style="display:none;"><input type="radio" name="optradio" value="outdoor" required> Outdoor</label>
 
-                        <br><button type="submit">Telusuri</button>
+                        <br><button type="submit" name="submit">Telusuri</button>
                     </form>
                 </div>
             </div>
