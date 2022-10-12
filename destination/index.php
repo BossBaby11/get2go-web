@@ -9,6 +9,8 @@
         $lokasi = $_SESSION["lokasi"];
         $tipe = $_SESSION["tipe"];
     }
+
+    $result = mysqli_query($conn, "SELECT * FROM `tempat` WHERE `lokasi`='$lokasi' AND `tipe`='$tipe'");
 ?>
 
 <!DOCTYPE html>
