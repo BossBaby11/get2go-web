@@ -39,7 +39,7 @@
                         <label class="option"><input type="radio" name="tipe" value="indoor" required> Indoor</label>
                         <label class="option"><input type="radio" name="tipe" value="outdoor" required> Outdoor</label>
 
-                        <br><button type="submit" name="submit">Telusuri</button>
+                        <br><button type="submit" name="submit"><b>Telusuri</b></button>
                     </form>
                 </div>
             </div>
