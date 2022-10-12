@@ -1,17 +1,11 @@
 <?php
-    require "script/php/conn.php";
+    session_start();
 
     if ( isset($_POST["submit"])) {
-        $lokasi = htmlspecialchars($_POST["lokasi"]);
-        $kategori = htmlspecialchars($_POST["lokasi"]);
-        $utama = htmlspecialchars($_POST['utama']);
+        $_SESSION["lokasi"] =  $_POST["lokasi"];
+        $_SESSION["tipe"] = $_POST["tipe"];
 
-        mysqli_query($conn, $insert);
-
-        $_SESSION["type"] =  "data berhasil ditambah";
-        $_SESSION["dst"] = "/admin/acara";
-
-        header("Location: /admin/berhasil.php");
+        header("Location: /destination/");
         exit;
     }
 ?>
