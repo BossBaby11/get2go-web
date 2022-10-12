@@ -28,6 +28,19 @@
 <body>
     <h1>Rekomendasi Untuk Anda</h1>
 
-    
+    <div class="centre">
+        <article>
+            <?php while ( $row = mysqli_fetch_row($result)) : ?>
+            <div class="card">
+                <a href="/place/index.php?id=<?= $row[0]; ?>"><img src="<?= $row[9]; ?>" alt=""></a>
+                <div class="container">
+                    <a href="/place/index.php?id=<?= $row[0]; ?>""><h2><b><?= $row[2]; ?></b></h2></a>
+                    <a href="/place/index.php?id=<?= $row[0]; ?>""><h4><?= $row[1]; ?></h4></a>
+                </div>
+            </div>
+            <?php endwhile; ?>
+
+        </article>
+    </div>
 </body>
 </html>
