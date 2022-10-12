@@ -49,6 +49,7 @@ select{
   font-size: x-large;
   background-color: white;
   border-radius: 10em;
+  border-width: 0px;
   opacity: 0.75;
 }
 
