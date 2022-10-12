@@ -31,11 +31,11 @@
                         <select name="lokasi" id="lokasi" onclick="select()" required autofocus>
                             <option value="" id="placeholder">Pick an area ...</option>
                             <option value=""></option>
-                            <option value="jakarta-utara">Jakarta Utara</option>
-                            <option value="jakarta-barat">Jakarta Barat</option>
-                            <option value="jakarta-pusat">Jakarta Pusat</option>
-                            <option value="jakarta-timur">Jakarta Timur</option>
-                            <option value="jakarta-selatan">Jakarta Selatan</option>
+                            <option value="Jakarta Utara">Jakarta Utara</option>
+                            <option value="Jakarta Barat">Jakarta Barat</option>
+                            <option value="Jakarta Pusat">Jakarta Pusat</option>
+                            <option value="Jakarta Timur">Jakarta Timur</option>
+                            <option value="Jakarta Selatan">Jakarta Selatan</option>
                         </select>
                         <label class="option"><input type="radio" name="tipe" value="indoor" required> Indoor</label>
                         <label class="option"><input type="radio" name="tipe" value="outdoor" required> Outdoor</label>
