@@ -1,5 +1,8 @@
 <?php
+    session_start();
 
+    echo $lokasi = $_SESSION["lokasi"];
+    echo $tipe = $_SESSION["tipe"];
 ?>
 
 <!DOCTYPE html>
