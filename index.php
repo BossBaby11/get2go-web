@@ -27,7 +27,7 @@
                     <h1>Choose Your Destination</h1>
     
                     <form action="" method="post">
-                        <select name="lokasi" id="lokasi" onclick="select()" onchange="optionshow()" required>
+                        <select name="lokasi" id="lokasi" onclick="select()" required>
                             <option value="" id="placeholder">Seach here...</option>
                             <option value=""></option>
                             <option value="jakarta-utara">Jakarta Utara</option>
