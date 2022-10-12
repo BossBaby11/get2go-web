@@ -28,7 +28,7 @@
     
                     <form action="" method="post">
                         <select name="lokasi" id="lokasi" onclick="select()" required autofocus>
-                            <option value="" id="placeholder">Seach here...</option>
+                            <option value="" id="placeholder">Pick an area ...</option>
                             <option value=""></option>
                             <option value="jakarta-utara">Jakarta Utara</option>
                             <option value="jakarta-barat">Jakarta Barat</option>
