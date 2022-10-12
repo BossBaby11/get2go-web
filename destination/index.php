@@ -24,7 +24,10 @@
     <link rel="stylesheet" href="/style/destination.css">
     <link rel="stylesheet" href="/style/destination.tmp.css">
 </head>
+
 <body>
+    <h1>Rekomendasi Untuk Anda</h1>
+
     
 </body>
 </html>
