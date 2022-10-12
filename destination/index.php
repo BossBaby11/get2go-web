@@ -6,6 +6,7 @@
         exit;
     } else {
         echo $lokasi = $_SESSION["lokasi"];
+        echo " - ";
         echo $tipe = $_SESSION["tipe"];
     }
 ?>
