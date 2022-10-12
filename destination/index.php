@@ -1,5 +1,6 @@
 <?php
     session_start();
+    require "../script/php/conn.php";
 
     if( !isset($_SESSION["lokasi"])) {
         header("Location: /");
