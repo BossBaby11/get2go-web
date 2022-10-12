@@ -50,10 +50,9 @@ select{
   background-color: white;
   border-radius: 10em;
   opacity: 0.75;
-  
 }
 
-select {
+/* select {
   margin: 0;      
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -71,4 +70,4 @@ select {
     20px 20px,
     1px 1.5em;
   background-repeat: no-repeat;
-}
+} */
