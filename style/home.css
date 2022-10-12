@@ -68,6 +68,7 @@ label.option{
 button{
   padding: 10px;
   border-radius: 1em;
+  border-width: 0px;
 }
 
 /* select {
