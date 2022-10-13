@@ -1,4 +1,5 @@
 # Get2Go
+> Traveling, Traveling and the Beauty of Your Dreams Explore "the other side of Jakarta"
 
 ## Table of Contents
 * [Pendahuluan](#pendahuluan)
