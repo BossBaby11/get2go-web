@@ -18,8 +18,8 @@
 </head>
 <body>
     <section class="result">
-        <h2><?= $message; ?></h2>
-        <a href="<?= $dst; ?>"><button>Kembali ke Dashboard</button></a>
+        <h2>Selamat data berhasil <?= $message; ?></h2>
+        <a href="/admin"><button>Kembali ke Dashboard</button></a>
     </section>
     
 </body>
