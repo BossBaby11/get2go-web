@@ -12,8 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Berhasil Ditambah</title>
-    <link rel="stylesheet" href="/style/admin.css">
+    <title>Data Berhasil <?= $message; ?> | Get2Go</title>
     <link rel="icon" href="/favicon.ico">
 </head>
 <body>
