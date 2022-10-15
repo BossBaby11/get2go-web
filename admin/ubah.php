@@ -23,7 +23,7 @@
         $gambar2 = htmlspecialchars($_POST["gambar2"]);
         $gambar3 = htmlspecialchars($_POST["gambar3"]);
 
-        $insert = "UPDATE `tempat` SET `id`='$id',`lokasi`='$lokasi',`nama`='$nama',`tipe`='$tipe',`deskripsi`='$deskripsi',`buka`='$buka',`tutup`='$tutup',`htm`='$htm',`gmap`='$gmap',`gambar1`='$gambar1',`gambar2`='$gambar2', `gambar3`='$gambar3' WHERE id = $id";
+        $insert = "UPDATE `tempat` SET `id`='$id',`lokasi`='$lokasi',`nama`='$nama',`tipe`='$tipe',`deskripsi`='$deskripsi',`buka`='$buka',`tutup`='$tutup',`htm`='$htm',`gmap`='$gmap',`gambar1`='$gambar1',`gambar2`='$gambar2',`gambar3`='$gambar3' WHERE id = $id";
 
         mysqli_query($conn, $insert);
 
@@ -80,7 +80,7 @@
         <input type="text" name="gambar2" id="gambar2" required autocomplete="off" value="<?= $row[10]; ?>">
 
         <h3>Link Gambar 3</h3>
-        <input type="text" name="gambar2" id="gambar2" required autocomplete="off" value="<?= $row[11]; ?>">
+        <input type="text" name="gambar3" id="gambar3" required autocomplete="off" value="<?= $row[11]; ?>">
 
         <br><br>
         <button type="submit" name="submit">Simpan Perubahan</button>
