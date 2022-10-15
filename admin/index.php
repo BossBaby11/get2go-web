@@ -21,6 +21,8 @@
 <body>
     <h1> Selamat datang, <?= $admin_name ?>!</h1>
     <section>
+        <h2>Data Tempat Wisata</h2><br>
+
         <a href="tambah.php">Tambah</a>
         <div style="overflow-x:auto;">
             <table border="1" cellpadding="10" cellspacing="2">
