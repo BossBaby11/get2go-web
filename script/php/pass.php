@@ -1,3 +1,3 @@
 <?php
-    echo $pass = password_hash(, PASSWORD_DEFAULT);
+    echo $pass = password_hash(/*Put your password here*/ */, PASSWORD_DEFAULT);
 ?>

@@ -21,6 +21,8 @@
 <body>
     <h1> Selamat datang, <?= $admin_name ?>!</h1><br>
 
+    <a href="logout.php">Logout</a>
+
     <section>
         <h2>Data Tempat Wisata</h2><br>
 
@@ -41,7 +43,6 @@
                     <th>Gambar 1</th>
                     <th>Gambar 2</th>
                     <th>Gambar 3</th>
-                    <th>Link YouTube</th>
                 </tr>
 
                 <?php while ( $row = mysqli_fetch_row($result)) : ?>
