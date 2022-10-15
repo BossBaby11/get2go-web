@@ -22,7 +22,6 @@
         mysqli_query($conn, $insert);
 
         $_SESSION["type"] =  "data berhasil ditambah";
-        $_SESSION["dst"] = "/admin/tempat";
 
         header("Location: /admin/berhasil.php");
         exit;
