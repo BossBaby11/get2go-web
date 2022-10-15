@@ -19,7 +19,8 @@
     <link rel="icon" href="/favicon.ico">
 </head>
 <body>
-    <h1> Selamat datang, <?= $admin_name ?>!</h1>
+    <h1> Selamat datang, <?= $admin_name ?>!</h1><br>
+
     <section>
         <h2>Data Tempat Wisata</h2><br>
 
