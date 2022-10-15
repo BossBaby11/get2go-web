@@ -23,11 +23,11 @@
         $gambar2 = htmlspecialchars($_POST["gambar2"]);
         $gambar3 = htmlspecialchars($_POST["gambar3"]);
 
-        $insert = "UPDATE `tempat` SET `id`='$id',`lokasi`='$lokasi',`nama`='$nama',`tipe`='$tipe',`deskripsi`='$deskripsi',`buka`='$buka',`tutup`='$tutup',`htm`='$htm',`gmap`='$gmap',`gambar1`='$gambar1',`gambar2`='$gambar2', `gambar3`='$gambar3', WHERE id = $id";
+        $insert = "UPDATE `tempat` SET `id`='$id',`lokasi`='$lokasi',`nama`='$nama',`tipe`='$tipe',`deskripsi`='$deskripsi',`buka`='$buka',`tutup`='$tutup',`htm`='$htm',`gmap`='$gmap',`gambar1`='$gambar1',`gambar2`='$gambar2', `gambar3`='$gambar3' WHERE id = $id";
 
         mysqli_query($conn, $insert);
 
-        $_SESSION["type"] =  "data berhasil diubah";
+        $_SESSION["type"] =  "Data Berhasil Diubah";
 
         header("Location: /admin/berhasil.php");
         exit;
@@ -74,13 +74,13 @@
         <input type="url" name="gmap" id="gmap" required autocomplete="off" value="<?= $row[8]; ?>">
         
         <h3>Link Gambar 1</h3>
-        <input type="url" name="gambar1" id="gambar1" required autocomplete="off" value="<?= $row[9]; ?>">
+        <input type="text" name="gambar1" id="gambar1" required autocomplete="off" value="<?= $row[9]; ?>">
         
         <h3>Link Gambar 2</h3>
-        <input type="url" name="gambar2" id="gambar2" required autocomplete="off" value="<?= $row[10]; ?>">
+        <input type="text" name="gambar2" id="gambar2" required autocomplete="off" value="<?= $row[10]; ?>">
 
         <h3>Link Gambar 3</h3>
-        <input type="url" name="gambar2" id="gambar2" required autocomplete="off" value="<?= $row[11]; ?>">
+        <input type="text" name="gambar2" id="gambar2" required autocomplete="off" value="<?= $row[11]; ?>">
 
         <br><br>
         <button type="submit" name="submit">Simpan Perubahan</button>
