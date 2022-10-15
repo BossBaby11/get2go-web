@@ -27,7 +27,7 @@
 
         mysqli_query($conn, $insert);
 
-        $_SESSION["type"] =  "Data Berhasil Diubah";
+        $_SESSION["type"] =  "diubah";
 
         header("Location: /admin/berhasil.php");
         exit;
