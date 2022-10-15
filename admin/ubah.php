@@ -73,14 +73,14 @@
         <h3>Link Google Maps</h3>
         <input type="url" name="gmaps" id="gmaps" required autocomplete="off" value="<?= $row[8]; ?>">
         
-        <h3>Link Gambar 1</h3>
-        <input type="text" name="gambar1" id="gambar1" required autocomplete="off" value="<?= $row[9]; ?>">
+        <h3>Link foto 1</h3>
+        <input type="text" name="foto1" id="foto1" required autocomplete="off" value="<?= $row[9]; ?>">
         
-        <h3>Link Gambar 2</h3>
-        <input type="text" name="gambar2" id="gambar2" required autocomplete="off" value="<?= $row[10]; ?>">
+        <h3>Link foto 2</h3>
+        <input type="text" name="foto2" id="foto2" required autocomplete="off" value="<?= $row[10]; ?>">
 
-        <h3>Link Gambar 3</h3>
-        <input type="text" name="gambar3" id="gambar3" required autocomplete="off" value="<?= $row[11]; ?>">
+        <h3>Link foto 3</h3>
+        <input type="text" name="foto3" id="foto3" required autocomplete="off" value="<?= $row[11]; ?>">
 
         <br><br>
         <button type="submit" name="submit">Simpan Perubahan</button>
