@@ -5,6 +5,10 @@
 
     $id = $_GET["id"];
 
+    $result = mysqli_query($conn, "SELECT * FROM tempat WHERE id = $id");
+
+    $row = mysqli_fetch_row($result);
+
 ?>
 
 <!DOCTYPE html>
