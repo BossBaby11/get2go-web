@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    require "../script/php/auth.php";
+    require "../script/php/conn.php";
+
+    
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
