@@ -3,7 +3,8 @@
     require "../script/php/auth.php";
     require "../script/php/conn.php";
 
-    
+    $id = $_GET["id"];
+
 ?>
 
 <!DOCTYPE html>
