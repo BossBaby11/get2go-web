@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: relative;
+    display: block;
+    padding: 25px;
+}
+
+.icon{
+    max-width: 48px;
+}
+
+.nav-con{
+    display: none;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    text-decoration-line: inherit;
+    text-decoration-style: inherit;
+    text-decoration-color: inherit;
+}
+
+button{
+    color: white;
+    font-size: medium;
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+table{
+    margin: 25px;
+    max-width: 80%;
+}
+
+h1, h2{
+    margin-left: 25px;
+}
+
+section a{
+    margin: 25px;
+}
+
+td img{
+    max-width: 50px;
+}
