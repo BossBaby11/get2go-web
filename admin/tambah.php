@@ -3,7 +3,30 @@
     require "../script/php/auth.php";
     require "../script/php/conn.php";
 
-    
+    if ( isset($_POST["submit"])) {
+        $id = $_POST["id"];
+        $lokasi = htmlspecialchars($_POST["lokasi"]);
+        $nama = htmlspecialchars($_POST["nama"]);
+        $tipe = htmlspecialchars($_POST["tipe"]);
+        $deskripsi = htmlspecialchars($_POST["deskripsi"]);
+        $buka = htmlspecialchars($_POST["buka"]);
+        $tutup = htmlspecialchars($_POST["tutup"]);
+        $htm = htmlspecialchars($_POST["htm"]);
+        $gmaps = htmlspecialchars($_POST["gmaps"]);
+        $foto1 = htmlspecialchars($_POST["foto1"]);
+        $foto2 = htmlspecialchars($_POST["foto2"]);
+        $foto3 = htmlspecialchars($_POST["foto3"]);
+
+        $insert = "INSERT INTO `tempat`(`id`,`lokasi`,`nama`,`tipe`,`deskripsi`,`buka`,`tutup`,`htm`,`gmaps`,`foto1`,`foto2`,`foto3`) VALUES (NULL,'$lokasi','$nama','$tipe','$deskripsi','$buka','$tutup','$htm','$gmaps','$foto1','$foto2','$foto3')";
+
+        mysqli_query($conn, $insert);
+
+        $_SESSION["type"] =  "data berhasil ditambah";
+        $_SESSION["dst"] = "/admin/tempat";
+
+        header("Location: /admin/berhasil.php");
+        exit;
+    }
 ?>
 
 <!DOCTYPE html>
