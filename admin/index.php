@@ -29,12 +29,14 @@
                 <tr>
                     <th>ID</th>
                     <th>Aksi</th>
-                    <th>Provinsi</th>
+                    <th>Lokasi</th>
                     <th>Nama Tempat</th>
                     <th>Kategori Tempat</th>
-                    <th>Link GMaps</th>
+                    <th>Deskripsi</th>
                     <th>Jam Buka</th>
                     <th>Jam Tutup</th>
+                    <th>HTN</th>
+                    <th>Link GMaps</th>
                     <th>Gambar 1</th>
                     <th>Gambar 2</th>
                     <th>Gambar 3</th>
@@ -54,10 +56,11 @@
                         <td><?= $row[4]; ?></td>
                         <td><?= $row[5]; ?></td>
                         <td><?= $row[6]; ?></td>
-                        <td><img src="<?= $row[7]; ?>" alt=""></td>
-                        <td><img src="<?= $row[8]; ?>" alt=""></td>
+                        <td><?= $row[7]; ?></td>
+                        <td><?php if(isset($row[8])){echo "✅";} ?></td>
                         <td><img src="<?= $row[9]; ?>" alt=""></td>
-                        <td><?= $row[10]; ?></td>
+                        <td><img src="<?= $row[10]; ?>" alt=""></td>
+                        <td><img src="<?= $row[11]; ?>" alt=""></td>
                     </tr>
                 <?php endwhile; ?>
             </table>
