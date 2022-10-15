@@ -9,6 +9,25 @@
 
     $row = mysqli_fetch_row($result);
 
+    if ( isset($_POST["submit"])) {
+        $id = $_POST["id"];
+        $lokasi = htmlspecialchars($_POST["lokasi"]);
+        $nama = htmlspecialchars($_POST["nama"]);
+        $tipe = htmlspecialchars($_POST["tipe"]);
+        $deskripsi = htmlspecialchars($_POST["deskripsi"]);
+        $buka = htmlspecialchars($_POST["buka"]);
+        $tutup = htmlspecialchars($_POST["tutup"]);
+        $htm = htmlspecialchars($_POST["htm"]);
+        $gmap = htmlspecialchars($_POST["gmap"]);
+        $gambar1 = htmlspecialchars($_POST["gambar1"]);
+        $gambar2 = htmlspecialchars($_POST["gambar2"]);
+        $gambar3 = htmlspecialchars($_POST["gambar3"]);
+
+        $insert = "UPDATE `tempat` SET `id`='$id',`lokasi`='$lokasi',`nama`='$nama',`tipe`='$tipe',`deskripsi`='$deskripsi',`buka`='$buka',`tutup`='$tutup',`htm`='$htm',`gmap`='$gmap',`gambar1`='$gambar1',`gambar2`='$gambar2', `gambar3`='$gambar3', WHERE id = $id";
+
+        mysqli_query($conn, $insert);
+
+    }
 ?>
 
 <!DOCTYPE html>
