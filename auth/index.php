@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    require "../script/conn.php";
+    require "../script/php/conn.php";
 
     if ( isset($_POST["login"])) {
         $username = $_POST["username"];
