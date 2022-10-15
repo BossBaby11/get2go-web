@@ -19,11 +19,11 @@
         $tutup = htmlspecialchars($_POST["tutup"]);
         $htm = htmlspecialchars($_POST["htm"]);
         $gmaps = htmlspecialchars($_POST["gmaps"]);
-        $gambar1 = htmlspecialchars($_POST["gambar1"]);
-        $gambar2 = htmlspecialchars($_POST["gambar2"]);
-        $gambar3 = htmlspecialchars($_POST["gambar3"]);
+        $foto1 = htmlspecialchars($_POST["foto1"]);
+        $foto2 = htmlspecialchars($_POST["foto2"]);
+        $foto3 = htmlspecialchars($_POST["foto3"]);
 
-        $insert = "UPDATE `tempat` SET `id`='$id',`lokasi`='$lokasi',`nama`='$nama',`tipe`='$tipe',`deskripsi`='$deskripsi',`buka`='$buka',`tutup`='$tutup',`htm`='$htm',`gmaps`='$gmaps',`gambar1`='$gambar1',`gambar2`='$gambar2',`gambar3`='$gambar3' WHERE id = $id";
+        $insert = "UPDATE `tempat` SET `id`='$id',`lokasi`='$lokasi',`nama`='$nama',`tipe`='$tipe',`deskripsi`='$deskripsi',`buka`='$buka',`tutup`='$tutup',`htm`='$htm',`gmaps`='$gmaps',`foto1`='$foto1',`foto2`='$foto2',`foto3`='$foto3' WHERE id = $id";
 
         mysqli_query($conn, $insert);
 
