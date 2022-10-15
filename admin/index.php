@@ -1,7 +1,7 @@
 <?php
     session_start();
-    require "../../script/auth.php";
-    require "../../script/conn.php";
+    require "../script/auth.php";
+    require "../script/conn.php";
 
     $result = mysqli_query($conn, "SELECT * FROM tempat");
 ?>
