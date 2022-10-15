@@ -59,7 +59,7 @@
                         <td><?= $row[5]; ?></td>
                         <td><?= $row[6]; ?></td>
                         <td><?= $row[7]; ?></td>
-                        <td><?php if(isset($row[8])){echo "✅";} ?></td>
+                        <td><?php if(isset($row[8])){echo "✅";}else {echo "❌";} ?></td>
                         <td><img src="<?= $row[9]; ?>" alt=""></td>
                         <td><img src="<?= $row[10]; ?>" alt=""></td>
                         <td><img src="<?= $row[11]; ?>" alt=""></td>
