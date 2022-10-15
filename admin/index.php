@@ -1,7 +1,9 @@
 <?php
     session_start();
-    require "../script/php/auth.php";
+    // require "../script/php/auth.php";
     require "../script/php/conn.php";
+
+    $admin_name = $_SESSION["name"];
 
     $result = mysqli_query($conn, "SELECT * FROM tempat");
 ?>
