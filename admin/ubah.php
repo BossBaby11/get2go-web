@@ -71,7 +71,7 @@
         <input type="text" name="htm" id="htm" required autocomplete="off" value="<?= $row[7]; ?>">
 
         <h3>Link Google Maps</h3>
-        <input type="url" name="gmap" id="gmap" required autocomplete="off" value="<?= $row[8]; ?>">
+        <input type="url" name="gmaps" id="gmaps" required autocomplete="off" value="<?= $row[8]; ?>">
         
         <h3>Link Gambar 1</h3>
         <input type="text" name="gambar1" id="gambar1" required autocomplete="off" value="<?= $row[9]; ?>">
