@@ -1,7 +1,7 @@
 <?php
     session_start();
-    require "../../script/auth.php";
-    require "../../script/conn.php";
+    require "../script/php/auth.php";
+    require "../script/php/conn.php";
 
     $id = $_GET["id"];
 
