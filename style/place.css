@@ -11,8 +11,9 @@ a {
 
 article img {
     width: 100%;
+    height: 150%;
     border-radius: 15px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 iframe {
@@ -38,7 +39,7 @@ p{
 }
 
 article{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .centre{
@@ -47,9 +48,22 @@ article{
     align-items: center;
 }
 
-@media (min-width: 800px){
+@media (min-width: 360px){
     article{
         max-width: 80%;
     }
+}
 
+
+@media (min-width: 800px){
+    article img {
+        max-height: 1000px;
+    }
+}
+
+@media (min-width: 1000px){
+    article img {
+
+    }
+    
 }
