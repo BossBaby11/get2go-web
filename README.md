@@ -10,7 +10,7 @@
 * [License](#license)
 
 ## Pendahuluan
-Get2Go adalah aplikasi berbasis web yang memiliki visi mempermudah para wisatawan untuk mendapatkan rekomendasi dan informasi mengenai tempat wisata di Indonesia.
+Get2Go adalah aplikasi berbasis web yang memiliki visi mempermudah para wisatawan untuk mendapatkan rekomendasi dan informasi mengenai tempat wisata di Jakarta, Indonesia.
 
 ## Informasi
 Informasi yang ditampilkan di aplikasi Get2Go, yaitu:
