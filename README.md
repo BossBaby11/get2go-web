@@ -26,7 +26,7 @@ Informasi yang ditampilkan di aplikasi Get2Go, yaitu:
 - Bima Gifara (Researcher)
 - Rizki Akbar Putra Hermawan (Designer)
 - [Ryan Faiz Sanie](https://github.com/ryanfaiz) (Backend Developer & Database Administrator)
-- Zalfa Rania Hawa (Head of Research Division)
+- [Zalfa Rania Hawa]((https://github.com/zalfarh) (Head of Research Division)
 
 ## Teknologi
 - Apache - versi 2.4.54
