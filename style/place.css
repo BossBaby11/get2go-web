@@ -60,10 +60,3 @@ article{
         max-height: 1000px;
     }
 }
-
-@media (min-width: 1000px){
-    article img {
-
-    }
-    
-}
