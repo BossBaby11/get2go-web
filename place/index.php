@@ -34,7 +34,7 @@
             <p>Jam Tutup : <?= $row[6]; ?></p>
 
             <h2>Harga Tiket Masuk</h2>
-            <p>HTM : Rp <?= $row[7]; ?></p>
+            <p>HTM : <?= $row[7]; ?></p>
 
             <h2>Galeri Tempat Wisata</h2>
             <img src="<?= $row[10]; ?>" alt="">

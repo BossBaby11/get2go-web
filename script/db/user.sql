@@ -9,7 +9,7 @@
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone = "+07:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -38,7 +38,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`) VALUES
-(1, 'ryan', '$2y$10$TMn09yrROweNT/lAmFakXO6pVnfqwAw/hvyogmx6ORLOsNT2ufCSu');
+(1, 'hanif', '$2y$10$f/pRDc3pYtW3lW7FiLw9jeEKkJcOk0Ib5wpAK2A9WyVG2jGwRddLm'),
+(2, 'ryan', '$2y$10$TMn09yrROweNT/lAmFakXO6pVnfqwAw/hvyogmx6ORLOsNT2ufCSu'),
+(3, 'zalfa', '$2y$10$VUiHEDW48NOS3u363pWu/.sy1ZleSIPoIxVKYWqcqK599Ix7NDLki');
 
 --
 -- Indexes for dumped tables
