@@ -57,3 +57,18 @@ article{
     display: flex;
     flex-wrap: wrap;
 }
+
+.icon{
+    width: 100%;
+}
+
+.icon-btn{
+    width: 120px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+}
