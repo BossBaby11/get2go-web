@@ -34,7 +34,14 @@ Informasi yang ditampilkan di aplikasi Get2Go, yaitu:
 - PHP - versi 8.1.10
 
 ## Screenshots
+Home Page
 ![Home Page](./img/ss/home.webp)
+
+List Page
+![List Page](./img/ss/list.webp)
+
+Single Page
+![Single Page](./img/ss/single.webp)
 
 ## License
 MIT License
