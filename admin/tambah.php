@@ -16,8 +16,9 @@
         $foto1 = htmlspecialchars($_POST["foto1"]);
         $foto2 = htmlspecialchars($_POST["foto2"]);
         $foto3 = htmlspecialchars($_POST["foto3"]);
+        $timestamp = htmlspecialchars($_POST["timestamp"]);
 
-        $insert = "INSERT INTO `tempat`(`id`,`lokasi`,`nama`,`tipe`,`deskripsi`,`buka`,`tutup`,`htm`,`gmaps`,`foto1`,`foto2`,`foto3`) VALUES (NULL,'$lokasi','$nama','$tipe','$deskripsi','$buka','$tutup','$htm','$gmaps','$foto1','$foto2','$foto3')";
+        $insert = "INSERT INTO `tempat`(`id`,`lokasi`,`nama`,`tipe`,`deskripsi`,`buka`,`tutup`,`htm`,`gmaps`,`foto1`,`foto2`,`foto3`,`timestamp`) VALUES (NULL,'$lokasi','$nama','$tipe','$deskripsi','$buka','$tutup','$htm','$gmaps','$foto1','$foto2','$foto3','$timestamp')";
 
         mysqli_query($conn, $insert);
 
@@ -41,8 +42,6 @@
 <body>
     <h1>Tambah Data Tempat Wisata</h1>
     <form action="" method="post" enctype="multipart/form-data">
-        <input type="hidden" name="id" id="id" value="<?= $row[0]; ?>">
-
         <h3>Lokasi Tempat Wisata</h3>
         <input type="text" name="lokasi" id="lokasi" required autocomplete="off" autofocus>
 
@@ -75,6 +74,9 @@
 
         <h3>Link foto 3</h3>
         <input type="text" name="foto3" id="foto3" required autocomplete="off">
+
+        <h3>Timestamp</h3>
+        <input type="datetime-local" name="timestamp" id="timestamp" required autocomplete="off">
 
         <br><br>
         <button type="submit" name="submit">Simpan Perubahan</button>

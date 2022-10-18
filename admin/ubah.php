@@ -22,8 +22,9 @@
         $foto1 = htmlspecialchars($_POST["foto1"]);
         $foto2 = htmlspecialchars($_POST["foto2"]);
         $foto3 = htmlspecialchars($_POST["foto3"]);
+        $timestamp = htmlspecialchars($_POST["timestamp"]);
 
-        $insert = "UPDATE `tempat` SET `id`='$id',`lokasi`='$lokasi',`nama`='$nama',`tipe`='$tipe',`deskripsi`='$deskripsi',`buka`='$buka',`tutup`='$tutup',`htm`='$htm',`gmaps`='$gmaps',`foto1`='$foto1',`foto2`='$foto2',`foto3`='$foto3' WHERE id = $id";
+        $insert = "UPDATE `tempat` SET `id`='$id',`lokasi`='$lokasi',`nama`='$nama',`tipe`='$tipe',`deskripsi`='$deskripsi',`buka`='$buka',`tutup`='$tutup',`htm`='$htm',`gmaps`='$gmaps',`foto1`='$foto1',`foto2`='$foto2',`foto3`='$foto3', `timestamp`='$timestamp' WHERE id = $id";
 
         mysqli_query($conn, $insert);
 
@@ -81,6 +82,9 @@
 
         <h3>Link foto 3</h3>
         <input type="text" name="foto3" id="foto3" required autocomplete="off" value="<?= $row[11]; ?>">
+
+        <h3>Timestamp</h3>
+        <input type="datetime-local" name="timestamp" id="timestamp" required autocomplete="off" value="<?= $row[12]; ?>">
 
         <br><br>
         <button type="submit" name="submit">Simpan Perubahan</button>
