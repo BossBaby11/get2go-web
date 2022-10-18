@@ -19,14 +19,17 @@
     <link rel="icon" href="/favicon.ico">
 </head>
 <body>
-    <h1> Selamat datang, <?= $admin_name ?>!</h1><br>
+    <nav>
+        <h1> Selamat datang, <?= $admin_name ?>!</h1>
+    
+        <a href="logout.php"><button>Logout</button></a>
 
-    <a href="logout.php">Logout</a>
+    </nav>
 
     <section>
         <h2>Data Tempat Wisata</h2><br>
 
-        <a href="tambah.php">Tambah</a>
+        <a href="tambah.php" class="add-button">Tambah</a>
         <div style="overflow-x:auto;">
             <table border="1" cellpadding="10" cellspacing="2">
                 <tr>
@@ -43,6 +46,7 @@
                     <th>Gambar 1</th>
                     <th>Gambar 2</th>
                     <th>Gambar 3</th>
+                    <th>Timestamp</th>
                 </tr>
 
                 <?php while ( $row = mysqli_fetch_row($result)) : ?>
@@ -63,6 +67,7 @@
                         <td><img src="<?= $row[9]; ?>" alt=""></td>
                         <td><img src="<?= $row[10]; ?>" alt=""></td>
                         <td><img src="<?= $row[11]; ?>" alt=""></td>
+                        <td><?php echo $row[12]; ?></td>
                     </tr>
                 <?php endwhile; ?>
             </table>
