@@ -26,8 +26,11 @@
 </head>
 
 <body>
-    <h1>Rekomendasi Untuk Anda</h1>
-
+    <nav>
+        <a href="/" class="icon-btn"><img src="../img/icon.webp"  class="icon"></a>
+        <h1>Rekomendasi Untuk Anda</h1>   
+    </nav>
+    
     <div class="centre">
         <article>
             <?php while ( $row = mysqli_fetch_row($result)) : ?>
