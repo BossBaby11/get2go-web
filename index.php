@@ -45,6 +45,7 @@
                 </div>
             </div>
         </div>        
+        <script src="/script/js/select.js"></script>
+        <script>document.addEventListener("contextmenu", e => e.preventDefault())</script>
     </body>
 </html>
-<script src="/script/js/select.js"></script>
