@@ -19,8 +19,7 @@ header{
 
 nav{
     display: flex;
-    text-align: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 a {
@@ -32,13 +31,25 @@ a {
 }
 
 button{
+    padding: 10px 20px;
+    border-radius: 0.5em;
+    border-width: 0px;
+    background-color: red;
     color: white;
-    font-size: medium;
-    background-color: var(--primary);
-    padding: 10px;
-    border-radius: 5px;
-    border-style: none;
+    font-size: large;
+    box-shadow: 1px 3px 5px 0.5px #CFD2CF;
+    margin: 1rem 1.5rem;  
+ }
+
+.add-button{
+    background-color: #1aff00;
+    padding: 10px 20px;
+    border-radius: 0.5em;
+    box-shadow: 1px 3px 5px 0.5px #CFD2CF;
+    color: white;
+    font-weight: bolder;
 }
+
 
 table{
     margin: 25px;
@@ -46,7 +57,7 @@ table{
 }
 
 h1, h2{
-    margin-left: 25px;
+    margin-left: 1rem;
 }
 
 section a{
