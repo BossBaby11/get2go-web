@@ -12,6 +12,7 @@ a {
 body, html {
   height: 100%;
   width: 100%;
+  
 }
 
 h1, select, input, button{
@@ -73,6 +74,12 @@ button{
   color: white;
   font-size: large;
   box-shadow: 1px 3px 5px 0.5px #CFD2CF;
+}
+
+option, label, button{
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 /* select {
