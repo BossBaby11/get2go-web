@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="/style/place.tmp.css">
 </head>
 <body>
+
+    <nav>
+        <a href="/destination" class="icon-btn"><img src="../img/icon.webp"  class="icon"></a>    
+    </nav>
+    
     <div class="centre">
         <article>
             <img src="<?= $row[9]; ?>" alt="">
@@ -40,6 +45,8 @@
             <img src="<?= $row[10]; ?>" alt="">
             <img src="<?= $row[11]; ?>" alt="">
             
+            <br><br><br><hr>
+            <p class="timestamp">Data diambil pada <?= $row[12]; ?></p>
         </article>
     </div>
 </body>
