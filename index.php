@@ -24,7 +24,7 @@
         <div class="backimg">
             <div class="parent">
                 <div class="child">
-                    <h1>Choose Your Destination</h1>
+                    <h1 class="page-title">Choose Your Destination</h1>
     
                     <form action="" method="post">
                         <select name="lokasi" id="lokasi" onclick="select()" required autofocus>
