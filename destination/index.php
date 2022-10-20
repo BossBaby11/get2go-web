@@ -34,7 +34,7 @@
         <article>
             <?php while ( $row = mysqli_fetch_row($result)) : ?>
             <div class="card">
-                <a href="/place/index.php?id=<?= $row[0]; ?>"><img src="<?= $row[3]; ?>" alt=""></a>
+                <a href="/place/index.php?id=<?= $row[0]; ?>"><img src="<?= $row[3]; ?>" alt="Gambar <?= $row[1]; ?>"></a>
                 <div class="container">
                     <a href="/place/index.php?id=<?= $row[0]; ?>"><h2><b><?= $row[2]; ?></b></h2></a>
                     <a href="/place/index.php?id=<?= $row[0]; ?>"><h4><?= $row[1]; ?></h4></a>
