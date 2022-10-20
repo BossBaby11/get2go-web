@@ -26,7 +26,7 @@
 
 <body>
     <nav>
-        <a href="/" class="icon-btn"><img src="../img/icon.webp"  class="icon"></a>
+        <a href="/" class="icon-btn"><img src="/img/icon.webp" class="icon" alt="icon"></a>
         <h1>Rekomendasi Untuk Anda</h1>   
     </nav>
     
