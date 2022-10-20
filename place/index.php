@@ -7,7 +7,6 @@
 
     $row = mysqli_fetch_row($result);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
