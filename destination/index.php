@@ -37,7 +37,7 @@
                 <a href="/place/index.php?id=<?= $row[0]; ?>"><img src="<?= $row[3]; ?>" alt="Gambar <?= $row[1]; ?>"></a>
                 <div class="container">
                     <a href="/place/index.php?id=<?= $row[0]; ?>"><h2><b><?= $row[2]; ?></b></h2></a>
-                    <a href="/place/index.php?id=<?= $row[0]; ?>"><h4><?= $row[1]; ?></h4></a>
+                    <a href="/place/index.php?id=<?= $row[0]; ?>"><p><b><?= $row[1]; ?></b></p></a>
                 </div>
             </div>
             <?php endwhile; ?>
