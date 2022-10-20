@@ -31,7 +31,7 @@
             <h1><?= $row[2]; ?> | <?= $row[1]; ?></h1>
 
             <h2>Lokasi Tempat Wisata</h2>
-            <div><div><iframe width="100%" height="500" id="gmap_canvas" src="<?= $row[8]; ?>" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+            <div><div><iframe title="Gmap iframe" width="100%" height="500" id="gmap_canvas" src="<?= $row[8]; ?>" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
 
             <h2>Jam Operasional Tempat Wisata</h2>
             <p>Jam Buka : <?= $row[5]; ?></p>
