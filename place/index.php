@@ -21,7 +21,7 @@
 <body>
 
     <nav>
-        <a href="/destination" class="icon-btn"><img src="../img/icon.webp"  class="icon"></a>    
+        <a href="/destination" class="icon-btn"><img src="../img/icon.webp" class="icon" alt="Gambar icon"></a>    
     </nav>
     
     <div class="centre">
