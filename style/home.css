@@ -33,6 +33,58 @@ h1{
   background-image: url("/img/home.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBg 30s infinite alternate both;
+}
+
+@keyframes slideBg {
+  0% {
+    opacity: 0;
+    background-image: url("/img/home.webp");
+    opacity: 1;
+  }
+
+  12% {
+    opacity: 0;
+    background-image: url("/img/home2.webp");
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+    background-image: url("/img/home3.webp");
+    opacity: 1;
+  }
+
+  37% {
+    opacity: 0;
+    background-image: url("/img/home4.webp");
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    background-image: url("/img/home5.webp");
+    opacity: 1;
+  }
+
+  62% {
+    opacity: 0;
+    background-image: url("/img/home6.webp");
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 0;
+    background-image: url("/img/home7.webp");
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    background-image: url("/img/home8.webp");
+    opacity: 1;
+  }
 }
 
 .parent{
