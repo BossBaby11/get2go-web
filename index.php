@@ -18,7 +18,6 @@
         <meta name="description" content="Halaman utama website Get2Go Traveling, Traveling and the Beauty of Your Dreams Explore 'The Other Side of Jakarta'">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/style/home.css">
-        <link rel="stylesheet" href="/style/home.tmp.css">
         <title>Home | Get2Go</title>
     </head>
     <body>
