@@ -26,7 +26,7 @@
     
     <div class="centre">
         <article>
-            <img src="<?= $row[9]; ?>" alt="">
+            <img src="<?= $row[9]; ?>" alt="Gambar <?= $row[1]; ?>">
 
             <h1><?= $row[2]; ?> | <?= $row[1]; ?></h1>
 
@@ -41,8 +41,8 @@
             <p>HTM : <?= $row[7]; ?></p>
 
             <h2>Galeri Tempat Wisata</h2>
-            <img src="<?= $row[10]; ?>" alt="">
-            <img src="<?= $row[11]; ?>" alt="">
+            <img src="<?= $row[10]; ?>" alt="Gambar <?= $row[1]; ?>">
+            <img src="<?= $row[11]; ?>" alt="Gambar <?= $row[1]; ?>">
             
             <br><br><br><hr>
             <p class="timestamp">Data diambil pada <?= $row[12]; ?></p>
