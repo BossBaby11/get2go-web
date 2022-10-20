@@ -17,7 +17,6 @@
     <title>Nama Tempat | Get2Go</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/style/place.css">
-    <link rel="stylesheet" href="/style/place.tmp.css">
 </head>
 <body>
 
