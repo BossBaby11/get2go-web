@@ -12,7 +12,6 @@
 
     $result = mysqli_query($conn, "SELECT id, lokasi, nama, foto1 FROM `tempat` WHERE `lokasi`='$lokasi' AND `tipe`='$tipe'");
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
