@@ -1,6 +1,6 @@
 **Privacy Policy**
 
-Boss Baby, Ryan Faiz built the Get2Go app as an Open Source app. This SERVICE is provided by Boss Baby, Ryan Faiz at no cost and is intended for use as is.
+Boss Baby, Ryan Faiz, Zalfarh built the Get2Go app as an Open Source app. This SERVICE is provided by Boss Baby, Ryan Faiz at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 
